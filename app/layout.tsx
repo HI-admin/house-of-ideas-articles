@@ -9,8 +9,8 @@ const defaultUrl = process.env.VERCEL_URL
 
 export const metadata = {
   metadataBase: new URL(defaultUrl),
-  title: "Next.js and Supabase Starter Kit",
-  description: "The fastest way to build apps with Next.js and Supabase",
+  title: "House of Ideas E-journal",
+  description: "Turning ideas into projects",
 };
 
 const Spacemono = Space_Mono(
@@ -24,6 +24,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={Spacemono.className} suppressHydrationWarning>
+    <head>
+      <title>House of ideas</title>
+      <link rel="shortcut icon" href="/favicon.ico"/>
+    </head>
       <Analytics/>
       <body className="bg-background text-foreground">
       <ThemeProvider
