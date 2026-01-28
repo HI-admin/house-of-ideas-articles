@@ -21,7 +21,7 @@ const MovingLine : FC<props> = ({ Content ,className }) => {
     const transition = {
         duration: 14,
         ease: "easeInOut",
-    };
+    } as const;
 
     const ref = useRef<any>(null);
 

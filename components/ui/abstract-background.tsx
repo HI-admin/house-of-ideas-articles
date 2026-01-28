@@ -11,11 +11,11 @@ const pathVariants = {
         pathLength: 1,
         opacity: 1,
         transition: {
-            pathLength: { duration: 2, ease: "easeInOut" },
+            pathLength: { duration: 2, ease: "easeInOut"},
             opacity: { duration: 0.5 },
         },
-    },
-}
+    }, 
+} as const;
 
 // Hover animation for the gradient fill
 const fillVariants = {
