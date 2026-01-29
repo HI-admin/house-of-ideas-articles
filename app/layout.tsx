@@ -27,6 +27,7 @@ export default function RootLayout({
     <head>
       <title>House of ideas</title>
       <link rel="shortcut icon" href="/favicon.ico"/>
+      <meta name="google-site-verification" content="c3Y9fb_F0MTB5IGuSe-MQWjfBkefCvFS6VgKcqjnqeE" />
     </head>
       <Analytics/>
       <body className="bg-background text-foreground">
